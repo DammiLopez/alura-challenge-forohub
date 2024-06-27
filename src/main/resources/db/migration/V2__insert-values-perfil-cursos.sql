@@ -1,0 +1,25 @@
+INSERT INTO perfiles (nombre) VALUES ('Administrador');
+INSERT INTO perfiles (nombre) VALUES ('Moderador');
+INSERT INTO perfiles (nombre) VALUES ('Usuario');
+INSERT INTO perfiles (nombre) VALUES ('Invitado');
+
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo de Aplicaciones con React', 'Desarrollo Frontend');
+INSERT INTO cursos (nombre, categoria) VALUES ('Programación en Java para Principiantes', 'Programación');
+INSERT INTO cursos (nombre, categoria) VALUES ('Administración de Sistemas Linux', 'Sistemas Operativos');
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo de APIs RESTful', 'Desarrollo Backend');
+INSERT INTO cursos (nombre, categoria) VALUES ('Introducción a la Ciencia de Datos', 'Ciencia de Datos');
+INSERT INTO cursos (nombre, categoria) VALUES ('Automatización de Pruebas con Selenium', 'Testing y QA');
+INSERT INTO cursos (nombre, categoria) VALUES ('Blockchain y Criptomonedas', 'Tecnologías Emergentes');
+INSERT INTO cursos (nombre, categoria) VALUES ('Diseño de Interfaces de Usuario (UI/UX)', 'Diseño');
+INSERT INTO cursos (nombre, categoria) VALUES ('Introducción a Kubernetes', 'DevOps');
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo de Videojuegos con Unity', 'Desarrollo de Videojuegos');
+INSERT INTO cursos (nombre, categoria) VALUES ('Introducción a la Programación', 'Programación');
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo Web con JavaScript', 'Desarrollo Web');
+INSERT INTO cursos (nombre, categoria) VALUES ('Bases de Datos con MySQL', 'Bases de Datos');
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo de Aplicaciones con Spring Boot', 'Desarrollo Backend');
+INSERT INTO cursos (nombre, categoria) VALUES ('Fundamentos de Redes y Seguridad', 'Redes y Seguridad');
+INSERT INTO cursos (nombre, categoria) VALUES ('DevOps y CI/CD', 'DevOps');
+INSERT INTO cursos (nombre, categoria) VALUES ('Machine Learning con Python', 'Inteligencia Artificial');
+INSERT INTO cursos (nombre, categoria) VALUES ('Arquitectura de Microservicios', 'Desarrollo Backend');
+INSERT INTO cursos (nombre, categoria) VALUES ('Desarrollo de Aplicaciones Móviles con Flutter', 'Desarrollo Móvil');
+INSERT INTO cursos (nombre, categoria) VALUES ('Computación en la Nube con AWS', 'Cloud Computing');

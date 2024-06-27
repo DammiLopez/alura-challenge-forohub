@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: api
+  profile:
+    active: dev, test, prod
+  devtools:
+    restart:log-condition-evaluation-delta=true
+  datasource:
+    url: jdbc:mysql://localhost:3306/foro_hub?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: admin123
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  error:
+    include-stacktrace: always
+
+api:
+  security:
+    secret-key: ${JWT_SECRET_KEY:123456}
+
+
